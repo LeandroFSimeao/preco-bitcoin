@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px inset black;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.container .coin-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc;
+    margin: 7px;
+}
+
+main {
+    background-color: rgb(28, 45, 70);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}
